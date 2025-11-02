@@ -1,0 +1,9 @@
+
+"""
+Program 7: Simple recursion
+"""
+def fact(n):
+    return 1 if n==0 else n*fact(n-1)
+
+print(fact(6))
+
