@@ -1,0 +1,13 @@
+
+"""
+Program 4: Exception handling
+"""
+def safe_div(a,b):
+    try:
+        return a/b
+    except ZeroDivisionError:
+        return "Cannot divide by zero"
+
+print(safe_div(10,2))
+print(safe_div(10,0))
+
